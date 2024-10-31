@@ -77,18 +77,17 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilos de los botones de números, cada uno con un color único */
-.keypad button:nth-child(1) { background-color: #ff6b6b; }  /* Botón 1 - Rojo */
-.keypad button:nth-child(2) { background-color: #ffaf40; }  /* Botón 2 - Naranja */
-.keypad button:nth-child(3) { background-color: #ffe66d; }  /* Botón 3 - Amarillo */
-.keypad button:nth-child(4) { background-color: #54a0ff; }  /* Botón 4 - Azul Claro */
-.keypad button:nth-child(5) { background-color: #1dd1a1; }  /* Botón 5 - Verde */
-.keypad button:nth-child(6) { background-color: #5f27cd; }  /* Botón 6 - Morado */
-.keypad button:nth-child(7) { background-color: #ff9ff3; }  /* Botón 7 - Rosa */
-.keypad button:nth-child(8) { background-color: #48dbfb; }  /* Botón 8 - Celeste */
-.keypad button:nth-child(9) { background-color: #feca57; }  /* Botón 9 - Amarillo Mostaza */
-.keypad button:nth-child(10) { background-color: #ff6b6b; } /* Botón 0 - Rojo */
-.keypad button:nth-child(11) { background-color: #576574; } /* Botón Borrar - Gris Oscuro */
+.keypad button:nth-child(1) { background-color: #ff6b6b; }
+.keypad button:nth-child(2) { background-color: #ffaf40; }
+.keypad button:nth-child(3) { background-color: #ffe66d; }
+.keypad button:nth-child(4) { background-color: #54a0ff; }
+.keypad button:nth-child(5) { background-color: #1dd1a1; }
+.keypad button:nth-child(6) { background-color: #5f27cd; }
+.keypad button:nth-child(7) { background-color: #ff9ff3; }
+.keypad button:nth-child(8) { background-color: #48dbfb; }
+.keypad button:nth-child(9) { background-color: #feca57; }
+.keypad button:nth-child(10) { background-color: #ff6b6b; }
+.keypad button:nth-child(11) { background-color: #576574; }
 
 .keypad button {
     padding: 15px;
@@ -107,7 +106,6 @@ h1 {
     color: #fff;
 }
 
-/* Botón de calcular con un color distinto */
 .calculate-btn {
     width: 100%;
     padding: 15px;
@@ -129,7 +127,6 @@ h1 {
     color: #fff;
 }
 
-/* Estilo del resultado con color llamativo */
 h2#resultado {
     text-align: center;
     margin-top: 20px;
