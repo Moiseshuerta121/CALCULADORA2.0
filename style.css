@@ -107,7 +107,7 @@ h1 {
     color: #fff;
 }
 
-
+/* Botón de calcular con un color distinto */
 .calculate-btn {
     width: 100%;
     padding: 15px;
@@ -129,7 +129,7 @@ h1 {
     color: #fff;
 }
 
-
+/* Estilo del resultado con color llamativo */
 h2#resultado {
     text-align: center;
     margin-top: 20px;
